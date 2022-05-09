@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact</title>
+</head>
+<body class="h-100 d-flex flex-column">
+    
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><i class="fa-solid fa-house"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="mobile" class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="blogs.html" class="nav-link">Blogs</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+
+                <form>
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button class="btn btn-warning"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container my-5">
+            <div class="row g-2">
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194473.4299992937!2d49.71487406602724!3d40.394507978322736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2zQmFrxLEsIEF6yZlyYmF5Y2Fu!5e0!3m2!1saz!2s!4v1647966590449!5m2!1saz!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                
+                <div class="col">
+                    <div class="card bg">
+                        <div class="card-body">
+                            <div class="alert alert-warning" role="alert">
+                                Please fill out the form.
+                            </div>
+                            <form>
+                                <div class="row text-white g-2">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" name="name" id="name" class="form-control">
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" name="email" id="email" class="form-control">
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <label for="phone" class="form-label">Phone</label>
+                                        <input type="tel" name="phone" id="phone" class="form-control">
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <input type="text" name="subject" id="subject" class="form-control">
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea name="message" id="message" class="form-control"></textarea>
+                                    </div>
+
+                                    <button class="btn btn-outline-warning mt-3">Send Message</button>
+                                </div>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <!-- footer -->
+    <footer class="bg text-white py-5 mt-auto">
+        <div class="container text-center">
+            <span>&copy;All Right Reserved, 2022</span>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
